@@ -1,0 +1,33 @@
+Classification Report:               precision    recall  f1-score   support
+
+           0       0.83      0.80      0.81        55
+           1       0.69      0.74      0.71        34
+
+    accuracy                           0.78        89
+   macro avg       0.76      0.77      0.76        89
+weighted avg       0.78      0.78      0.78        89
+Confusion Matrix: [[44 11]
+ [ 9 25]]
+F1 Score: 0.7142857142857144
+Precision Score: 0.6944444444444444
+Mathews Correlation Coefficient: 0.5299368123030451
+Accuracy Score: 0.7752808988764045
+ROC AUC Score: 0.7676470588235295
+Hyperparameter Tuning Results
+Best Parameters: {'min_samples_split': 2, 'min_samples_leaf': 2, 'max_features': 'sqrt', 'max_depth': None}
+Best Score: 0.8603227395910323
+Classification Report:               precision    recall  f1-score   support
+
+           0       0.84      0.65      0.73        55
+           1       0.59      0.79      0.68        34
+
+    accuracy                           0.71        89
+   macro avg       0.71      0.72      0.70        89
+weighted avg       0.74      0.71      0.71        89
+Confusion Matrix: [[36 19]
+ [ 7 27]]
+F1 Score: 0.675
+Precision Score: 0.5869565217391305
+Mathews Correlation Coefficient: 0.43624254058884276
+Accuracy Score: 0.7078651685393258
+ROC AUC Score: 0.7243315508021391

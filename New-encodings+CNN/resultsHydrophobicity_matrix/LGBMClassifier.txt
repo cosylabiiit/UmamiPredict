@@ -1,0 +1,15 @@
+Classification Report:               precision    recall  f1-score   support
+
+           0       0.85      0.80      0.82        55
+           1       0.70      0.76      0.73        34
+
+    accuracy                           0.79        89
+   macro avg       0.77      0.78      0.78        89
+weighted avg       0.79      0.79      0.79        89
+Confusion Matrix: [[44 11]
+ [ 8 26]]
+F1 Score: 0.7323943661971832
+Precision Score: 0.7027027027027027
+Mathews Correlation Coefficient: 0.5567248168594854
+Accuracy Score: 0.7865168539325843
+ROC AUC Score: 0.7823529411764707

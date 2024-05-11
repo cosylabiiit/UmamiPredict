@@ -1,0 +1,33 @@
+Classification Report:               precision    recall  f1-score   support
+
+           0       0.86      0.69      0.77        55
+           1       0.62      0.82      0.71        34
+
+    accuracy                           0.74        89
+   macro avg       0.74      0.76      0.74        89
+weighted avg       0.77      0.74      0.75        89
+Confusion Matrix: [[38 17]
+ [ 6 28]]
+F1 Score: 0.7088607594936709
+Precision Score: 0.6222222222222222
+Mathews Correlation Coefficient: 0.49994436032452577
+Accuracy Score: 0.7415730337078652
+ROC AUC Score: 0.7572192513368983
+Hyperparameter Tuning Results
+Best Parameters: {'weights': 'distance', 'p': 1, 'n_neighbors': 15, 'leaf_size': 10, 'algorithm': 'kd_tree'}
+Best Score: 0.8604089677260408
+Classification Report:               precision    recall  f1-score   support
+
+           0       0.80      0.73      0.76        55
+           1       0.62      0.71      0.66        34
+
+    accuracy                           0.72        89
+   macro avg       0.71      0.72      0.71        89
+weighted avg       0.73      0.72      0.72        89
+Confusion Matrix: [[40 15]
+ [10 24]]
+F1 Score: 0.6575342465753424
+Precision Score: 0.6153846153846154
+Mathews Correlation Coefficient: 0.4241767985127718
+Accuracy Score: 0.7191011235955056
+ROC AUC Score: 0.7165775401069518
