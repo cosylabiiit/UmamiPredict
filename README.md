@@ -1,1 +1,1 @@
-# Winter24_Umami_Prediction
+UmamiPredict: Prediciting the Umami taste of molecules and ppetides
